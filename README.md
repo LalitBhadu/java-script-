@@ -242,4 +242,61 @@ console.log(a.toLocaleLowerCase())*/
 // console.log(newa)
 
 
-// //
+
+/ foor loop in arrays//
+// let a = [31,32,34,35,37,83]
+// // for (let i=0;i<a.length;i++ ){
+// //     console.log(i)
+// // }
+
+
+
+// for each loop in function//
+// let a = [31,32,34,35,37,83]
+// a.forEach(element => {
+//     console.log(element*element)
+// });
+
+
+// array from//
+// let a = [31,32,34,35,37,83]
+// let lalit = "lalit"
+// let i = Array.from(lalit)
+// console.log(i)
+
+//array for of//
+// for (let a of i){
+//     console.log(a)
+// }
+
+
+// array for in//
+// for (let a in i){
+//     console.log([a])
+// }
+
+
+// array in map//
+// let arr =[10,20,30]
+//  let i= arr.map((Element, index, array)=>{
+//      console.log(Element, index, array)
+//      return Element + index
+//  })
+//  console.log(i)
+
+
+
+ // array in filter method//
+//  let arr2 = [1,20,3,40]
+//  let a1 = arr2.filter((a)=>{
+//      return a>12
+//  })
+//  console.log(a1)
+
+
+// array in reduce method//
+let arr3 = [10,20,30,45,58]
+let a = arr3.reduce((a, a1)=>{
+    return a * a1
+})
+console.log(a)
